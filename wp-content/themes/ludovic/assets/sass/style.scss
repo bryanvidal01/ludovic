@@ -1,0 +1,36 @@
+@import 'reset';
+@import 'bootstrap';
+@import 'fonts';
+@import 'variables';
+@import 'commons';
+@import 'components';
+@import 'header';
+@import 'intro';
+@import 'cursor';
+@import 'footer';
+@import 'page-about';
+@import 'page-case';
+@import 'slider';
+@import 'menu';
+
+body{
+  -webkit-font-smoothing : antialiased;
+  font-size: 18px;
+  font-family: 'obviously-compressed', sans-serif;
+  font-weight: 700;
+}
+
+a{
+  color: inherit;
+
+  &:hover{
+    color: inherit;
+  }
+}
+
+button:focus{
+  outline: none;
+}
+
+
+@import 'responsive';

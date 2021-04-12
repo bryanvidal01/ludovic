@@ -1,0 +1,55 @@
+footer{
+  background: #000;
+  height: 800px;
+  position: relative;
+
+  img{
+    width: 15%;
+
+    &.image-1{
+      position: absolute;
+      left: 30px;
+      top: 90px;
+    }
+    &.image-2{
+      position: absolute;
+      left: 20%;
+      bottom: 90px;
+    }
+    &.image-3{
+      position: absolute;
+      left: 30%;
+      top: 90px;
+    }
+    &.image-4{
+      position: absolute;
+      right: 40%;
+      bottom: 90px;
+    }
+    &.image-5{
+      position: absolute;
+      right: 20%;
+      top: 90px;
+    }
+    &.image-6{
+      position: absolute;
+      right: 30px;
+      bottom: 90px;
+    }
+  }
+
+  .text-inner-footer{
+    font-size: 11vw;
+    font-weight: 800;
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    mix-blend-mode: difference;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+
+  }
+}
+
