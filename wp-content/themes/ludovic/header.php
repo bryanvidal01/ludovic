@@ -4,10 +4,6 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.typekit.net/jcp4ioq.css">
-    <style>
-      @import url("https://use.typekit.net/jcp4ioq.css");
-    </style>
     <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri();?>/assets/images/icon.png" />
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css">
 
@@ -42,3 +38,52 @@
         </div>
     </div>
 </div>
+
+
+
+<header class="hero-navigation">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <ul>
+                    <li>
+                        <a href="">
+                            Le salon
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Formations
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            à propos
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-4 text-center">
+                <h1 class="title-site">
+                    <a href="">
+                        Ludovic Geheniaux
+                    </a>
+                </h1>
+            </div>
+            <div class="col-sm-4 text-right">
+                <ul>
+                    <li>
+                        <a href="">
+                            follow @ludovicgeheniaux_paris
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Reservation
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>

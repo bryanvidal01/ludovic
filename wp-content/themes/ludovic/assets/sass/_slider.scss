@@ -1,12 +1,12 @@
 
 .slider-round{
-  padding: 5vw 0;
+  padding: 10vw 0;
   background: #000;
   position: relative;
 
   .marquee{
     position: absolute;
-    top: 10%;
+    top: 8%;
     z-index: 50;
   }
 
@@ -25,13 +25,13 @@
 
   .swiper-container {
     width: 100%;
-    padding: 200px;
+    padding: 0 10vw;
 
 
     .swiper-button-next, .swiper-button-prev{
       position: absolute;
       top: 50%;
-      right: 27%;
+      right: 8%;
       border: 1px #fff solid;
       width: 12vw;
       height: 12vw;
@@ -41,15 +41,19 @@
         content: 'SUIVANT';
         font-size: 14px;
         color: #fff;
-        font-family: sans-serif;
+        font-family: 'obviously', sans-serif;
+        font-weight: 400;
       }
     }
 
     .swiper-button-prev{
       right: auto;
-      left: 27%;
+      left: 8%;
+
       &:after{
         content: 'PRÉCÉDENT';
+        font-family: 'obviously', sans-serif;
+        font-weight: 400
       }
     }
 

@@ -38,6 +38,22 @@ function init(){
     });
 
 
+    var lastScrollTop = 0;
+    $(window).scroll(function(){
+
+        var st = window.pageYOffset || document.documentElement.scrollTop; // Credits: "https://github.com/qeremy/so/blob/master/so.dom.js#L426"
+        if (st > lastScrollTop){
+            $('.hero-navigation').removeClass('animate-it');
+        } else {
+            $('.hero-navigation').addClass('fixed');
+            setTimeout(function(){
+               $('.hero-navigation').addClass('animate-it');
+            }, 50);
+        }
+        lastScrollTop = st <= 0 ? 0 : st;
+
+
+    });
 
     $('.swiper-button-prev, .swiper-button-next').mouseleave(function(e){
         var el = $(this);
@@ -89,7 +105,6 @@ function init(){
 
 
 
-
 }
 
 window.onload = function(){
@@ -113,7 +128,10 @@ window.onload = function(){
     setTimeout(function(){
         $('.loader').addClass('slide-down');
         $('#swup').addClass('slide-down');
-    }, 1100);
+        setTimeout(function(){
+            $('.hero-navigation').addClass('visible');
+        }, 1000);
+    }, 500);
 
     init();
 

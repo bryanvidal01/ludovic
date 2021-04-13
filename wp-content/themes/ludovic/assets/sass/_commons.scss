@@ -9,6 +9,7 @@
   color: #FFF;
   text-transform: uppercase;
   font-weight: 900;
+  font-family: 'obviously-wide', sans-serif;
 
   span{
     white-space: nowrap;
@@ -25,7 +26,7 @@
 }
 
 .marquee span {
-  font-size: 10vw;
+  font-size: 7vw;
   padding: 0 2vw;
 }
 
@@ -98,4 +99,156 @@ img{
     }
 
   }
+}
+
+.bloc-intro-home{
+  width: 100%;
+  position: relative;
+  padding-bottom: 9vw;
+
+  &:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(#000, .3);
+    z-index: 3;
+  }
+
+  &__image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__title-site{
+    font-size: 31.5vw;
+    line-height: 0;
+    padding-top: 210px;
+    color: $color-yellow;
+    height: 31.5vw;
+    text-align: center;
+    z-index: 30;
+    position: relative;
+    text-transform: uppercase;
+  }
+
+  &__cat-website{
+    margin-left: auto;
+    position: relative;
+    z-index: 30;
+    text-align: right;
+    padding-right: 30px;
+    color: $color-yellow;
+    margin-top: 100px;
+    font-size: 5vw;
+    max-width: 300px;
+    line-height: 5vw;
+    text-transform: uppercase;
+
+    span{
+      display: block;
+    }
+
+    .content{
+      margin-top: 30px;
+      color: #FFF;
+    }
+  }
+
+  &__info-salon{
+    position: relative;
+    z-index: 30;
+    margin-left: 10%;
+    .sup-title{
+      line-height: 20px;
+      font-size: 20px;
+      color: $color-yellow;
+      font-family: 'obviously-wide', sans-serif;
+      text-transform: uppercase;
+      font-weight: 100;
+    }
+    .title{
+      color: $color-yellow;
+      font-size: 20vw;
+      line-height: 15vw;
+      display: inline-block;
+      text-transform: uppercase;
+    }
+
+    .description{
+      width: 20%;
+      margin-left: 40px;
+      margin-top: 30px;
+      display: inline-block;
+      color: #FFF;
+    }
+
+    .link-round{
+      margin-left: 40px;
+      top: -20px;
+      position: relative;
+    }
+  }
+  &__formations{
+    position: relative;
+    z-index: 30;
+    margin-left: 40%;
+    margin-top: 10vw;
+    .sup-title{
+      line-height: 20px;
+      font-size: 20px;
+      color: $color-yellow;
+      font-family: 'obviously-wide', sans-serif;
+      text-transform: uppercase;
+      font-weight: 100;
+    }
+    .title{
+      color: $color-yellow;
+      font-size: 9vw;
+      font-weight: 900;
+      line-height: 9vw;
+      display: inline-block;
+      text-transform: uppercase;
+      font-family: 'obviously-wide', sans-serif;
+    }
+
+    .description{
+      width: 30%;
+      margin-top: 30px;
+      display: inline-block;
+      color: #FFF;
+    }
+
+    .link-round{
+      display: inline-block;
+      margin-left: 60px;
+      position: relative;
+      top: -40px;
+    }
+  }
+}
+
+
+.link-round{
+  color: $color-yellow;
+  font-family: 'obviously', sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  border-radius: 50%;
+  border: 1px solid $color-yellow;
+  font-size: 12px;
+  padding: 15px 19px;
+}
+
+.text-paragraphe{
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFF;
+  font-family: 'obviously', sans-serif;
+  font-weight: 300;
 }

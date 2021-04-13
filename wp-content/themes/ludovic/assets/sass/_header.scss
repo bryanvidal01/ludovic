@@ -1,0 +1,56 @@
+.hero-navigation{
+  padding-bottom: 7px;
+  position: absolute;
+  z-index: 200;
+  width: 100%;
+  color: $color-yellow;
+
+  &:after{
+    content: '';
+    height: 1px;
+    background: $color-yellow;
+    width: 0;
+    left: 30px;
+    bottom: 0;
+    position: absolute;
+    transition: 1.7s cubic-bezier(.76,-0.01,.11,.99);
+  }
+
+  &.visible{
+    &:after{
+      width: calc(100% - 60px);
+    }
+  }
+
+  &.fixed{
+    position: fixed;
+    transform: translate3D(0, -100%, 0);
+    transition: .4s;
+
+    &.animate-it{
+      transform: translate3D(0, 0, 0);
+      transition: .4s;
+    }
+  }
+
+  h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  ul{
+    padding-left: 0;
+    padding-top: 19px;
+    li{
+      display: inline-block;
+
+      a{
+        font-family: 'obviously', sans-serif;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 12px;
+        padding: 15px 20px;
+      }
+    }
+  }
+}

@@ -28,9 +28,14 @@
     }
 
     &__title-site{
-      font-size: 4vw;
+      font-size: 8vw;
       text-transform: uppercase;
       font-weight: 800;
+    }
+
+    &__category{
+      font-family: 'obviously-wide', sans-serif;
+      font-weight: 100;
     }
   }
 }
