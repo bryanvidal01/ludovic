@@ -16,6 +16,55 @@
             </div>
         </footer>
 
+
+        <div class="popin-formation">
+            <div class="container-popin">
+                <div class="content-popin">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="title-popin">
+                                Inscription
+                            </div>
+                        </div>
+                        <div class="col-sm-6 text-right">
+                            <a href="" class="link-round">Fermer</a>
+                        </div>
+                    </div>
+
+                    <form action="" class="row">
+                        <div class="col-sm-12">
+                            <div class="label">
+                                Formation
+                            </div>
+                            <div class="fake-input">
+                                Nom de la formation
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="fake-input">
+                                Date souhaité
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="text" placeholder="Nom">
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="text" placeholder="Prénom">
+                        </div>
+                        <div class="col-sm-12">
+                            <input type="text" placeholder="Email">
+                        </div>
+                        <div class="col-sm-12">
+                            <input type="text" placeholder="Téléphone">
+                        </div>
+                        <div class="col-sm-12 text-right">
+                            <button type="submit">Envoyer</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
         <link rel="stylesheet" href="https://use.typekit.net/jcp4ioq.css">
         <?php wp_footer(); ?>
     </body>

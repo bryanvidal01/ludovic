@@ -139,6 +139,22 @@ get_header();
             <!-- If we need scrollbar -->
         </div>
     </div>
+
+    <div class="section-biography">
+        <div class="container-biography" style="background-image: url('http://localhost:8888/ludovic/wp-content/themes/ludovic/assets/images/362715101029205.5f15e58a70d17.jpg">
+            <div class="content-bio">
+                <p>
+                    Dans mon salon Parisien, on se fiche des origines, des styles vestimentaires, des comptes en banque des orientations sexuelles et tout le reste. Chaque cliente, et chaque client qui pousse la porte est toujours écouté, chouchouté, choyé.
+                </p>
+            </div>
+
+            <div class="title-filigrane">Appelle moi</div>
+            <div class="sub-title">Chaton</div>
+            <div class="container-button">
+                <a href="" class="link-round">À propos</a>
+            </div>
+        </div>
+    </div>
 </div>
 <?php
 get_footer();

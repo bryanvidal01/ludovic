@@ -102,7 +102,33 @@ function init(){
         $('.circle').fadeOut(600);
     });
 
+    $(".image-follow").mousemove(function(event){
+        var el = $(this);
+        var relX = event.pageX - $(this).offset().left + 30;
+        var relY = event.pageY - $(this).offset().top;
 
+        el.find('.follow-image').fadeIn(100);
+        el.find('.follow-image').css({left: relX, top: relY})
+    });
+
+
+    $('.formation-list .image-follow').click(function(event){
+        $('.popin-formation').fadeIn();
+
+        event.preventDefault();
+    });
+
+    $('.container-popin .link-round').click(function(){
+        $('.popin-formation').fadeOut();
+
+        event.preventDefault();
+    });
+
+    setTimeout(function(){
+        $('.loader').addClass('slide-down');
+        $('#swup').addClass('slide-down');
+
+    }, 0);
 
 
 }
@@ -113,9 +139,9 @@ window.onload = function(){
     const randomColors = Math.floor(Math.random() * colors.length);
 
     var animation = new SwupOverlayTheme({
-        color: ['#192373'],
-        duration: 800,
-        direction: 'to-top',
+        color: ['#FEF37F'],
+        duration: 1500,
+        direction: 'to-bottom',
     });
     const swup = new Swup({
         plugins: [animation]

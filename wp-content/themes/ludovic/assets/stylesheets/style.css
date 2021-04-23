@@ -12187,8 +12187,7 @@ img {
 /* line 127, ../sass/_commons.scss */
 .bloc-intro-home__title-site {
   font-size: 31.5vw;
-  line-height: 0;
-  padding-top: 210px;
+  line-height: 29.5vw;
   color: #FEF37F;
   height: 31.5vw;
   text-align: center;
@@ -12196,7 +12195,7 @@ img {
   position: relative;
   text-transform: uppercase;
 }
-/* line 139, ../sass/_commons.scss */
+/* line 138, ../sass/_commons.scss */
 .bloc-intro-home__cat-website {
   margin-left: auto;
   position: relative;
@@ -12210,22 +12209,22 @@ img {
   line-height: 5vw;
   text-transform: uppercase;
 }
-/* line 152, ../sass/_commons.scss */
+/* line 151, ../sass/_commons.scss */
 .bloc-intro-home__cat-website span {
   display: block;
 }
-/* line 156, ../sass/_commons.scss */
+/* line 155, ../sass/_commons.scss */
 .bloc-intro-home__cat-website .content {
   margin-top: 30px;
   color: #FFF;
 }
-/* line 162, ../sass/_commons.scss */
+/* line 161, ../sass/_commons.scss */
 .bloc-intro-home__info-salon {
   position: relative;
   z-index: 30;
   margin-left: 10%;
 }
-/* line 166, ../sass/_commons.scss */
+/* line 165, ../sass/_commons.scss */
 .bloc-intro-home__info-salon .sup-title {
   line-height: 20px;
   font-size: 20px;
@@ -12234,7 +12233,7 @@ img {
   text-transform: uppercase;
   font-weight: 100;
 }
-/* line 174, ../sass/_commons.scss */
+/* line 173, ../sass/_commons.scss */
 .bloc-intro-home__info-salon .title {
   color: #FEF37F;
   font-size: 20vw;
@@ -12242,7 +12241,7 @@ img {
   display: inline-block;
   text-transform: uppercase;
 }
-/* line 182, ../sass/_commons.scss */
+/* line 181, ../sass/_commons.scss */
 .bloc-intro-home__info-salon .description {
   width: 20%;
   margin-left: 40px;
@@ -12250,20 +12249,20 @@ img {
   display: inline-block;
   color: #FFF;
 }
-/* line 190, ../sass/_commons.scss */
+/* line 189, ../sass/_commons.scss */
 .bloc-intro-home__info-salon .link-round {
   margin-left: 40px;
   top: -20px;
   position: relative;
 }
-/* line 196, ../sass/_commons.scss */
+/* line 195, ../sass/_commons.scss */
 .bloc-intro-home__formations {
   position: relative;
   z-index: 30;
   margin-left: 40%;
   margin-top: 10vw;
 }
-/* line 201, ../sass/_commons.scss */
+/* line 200, ../sass/_commons.scss */
 .bloc-intro-home__formations .sup-title {
   line-height: 20px;
   font-size: 20px;
@@ -12272,7 +12271,7 @@ img {
   text-transform: uppercase;
   font-weight: 100;
 }
-/* line 209, ../sass/_commons.scss */
+/* line 208, ../sass/_commons.scss */
 .bloc-intro-home__formations .title {
   color: #FEF37F;
   font-size: 9vw;
@@ -12282,14 +12281,14 @@ img {
   text-transform: uppercase;
   font-family: 'obviously-wide', sans-serif;
 }
-/* line 219, ../sass/_commons.scss */
+/* line 218, ../sass/_commons.scss */
 .bloc-intro-home__formations .description {
   width: 30%;
   margin-top: 30px;
   display: inline-block;
   color: #FFF;
 }
-/* line 226, ../sass/_commons.scss */
+/* line 225, ../sass/_commons.scss */
 .bloc-intro-home__formations .link-round {
   display: inline-block;
   margin-left: 60px;
@@ -12298,6 +12297,48 @@ img {
 }
 
 /* line 236, ../sass/_commons.scss */
+.section-biography {
+  background: #FEF37F;
+  padding: 10vw 15vw;
+}
+/* line 240, ../sass/_commons.scss */
+.section-biography .container-biography {
+  padding: 2vw;
+  background-size: cover;
+}
+/* line 244, ../sass/_commons.scss */
+.section-biography .container-biography .content-bio {
+  width: 35%;
+  margin-left: auto;
+  font-family: 'obviously-wide', sans-serif;
+  color: #FEF37F;
+  font-weight: 100;
+}
+/* line 252, ../sass/_commons.scss */
+.section-biography .container-biography .title-filigrane {
+  text-align: center;
+  font-size: 25vw;
+  -webkit-text-stroke: 2px #FEF37F;
+  text-stroke: 3px #FEF37F;
+  color: transparent;
+  text-transform: uppercase;
+}
+/* line 261, ../sass/_commons.scss */
+.section-biography .container-biography .sub-title {
+  font-size: 7.6vw;
+  text-transform: uppercase;
+  margin-top: -8vw;
+  text-align: center;
+  color: #FEF37F;
+  font-family: 'obviously-wide', sans-serif;
+}
+/* line 270, ../sass/_commons.scss */
+.section-biography .container-biography .container-button {
+  text-align: center;
+  padding: 2.5vw 0;
+}
+
+/* line 277, ../sass/_commons.scss */
 .link-round {
   color: #FEF37F;
   font-family: 'obviously', sans-serif;
@@ -12309,14 +12350,462 @@ img {
   padding: 15px 19px;
 }
 
-/* line 247, ../sass/_commons.scss */
+/* line 288, ../sass/_commons.scss */
 .text-paragraphe {
   text-transform: uppercase;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 22px;
   color: #FFF;
   font-family: 'obviously', sans-serif;
   font-weight: 300;
+}
+
+/* line 300, ../sass/_commons.scss */
+.hero-page-content {
+  position: relative;
+  height: 80vh;
+  z-index: 30;
+}
+/* line 305, ../sass/_commons.scss */
+.hero-page-content .container-image-hero {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+/* line 311, ../sass/_commons.scss */
+.hero-page-content .container-image-hero img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+/* line 317, ../sass/_commons.scss */
+.hero-page-content:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+/* line 327, ../sass/_commons.scss */
+.hero-page-content .container-titles {
+  z-index: 30;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 5vw;
+}
+/* line 333, ../sass/_commons.scss */
+.hero-page-content .container-titles .sup-title {
+  font-family: 'obviously-wide', sans-serif;
+  color: #FEF37F;
+  font-size: 2vw;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+/* line 341, ../sass/_commons.scss */
+.hero-page-content .container-titles .title {
+  font-size: 40vw;
+  text-transform: uppercase;
+  color: #FEF37F;
+  line-height: 20vw;
+}
+/* line 349, ../sass/_commons.scss */
+.hero-page-content.hero-about {
+  height: 100vh;
+}
+/* line 352, ../sass/_commons.scss */
+.hero-page-content.hero-about .container-titles {
+  bottom: 50%;
+  transform: translateY(35%);
+}
+
+/* line 360, ../sass/_commons.scss */
+.container-black {
+  background: #000;
+  padding: 13vw 2vw 2vw;
+}
+/* line 364, ../sass/_commons.scss */
+.container-black.formation {
+  padding: 5vw 2vw;
+}
+
+/* line 371, ../sass/_commons.scss */
+.container-salon-strate-1 .img-1 {
+  width: 30%;
+  margin-top: 5vw;
+  display: block;
+  margin-left: auto;
+  position: relative;
+  z-index: 3;
+  margin-right: auto;
+}
+/* line 380, ../sass/_commons.scss */
+.container-salon-strate-1 .img-2 {
+  width: 25%;
+  margin-left: 6%;
+  display: block;
+  margin-top: -.3vw;
+}
+/* line 387, ../sass/_commons.scss */
+.container-salon-strate-1 .img-3 {
+  width: 40%;
+  bottom: -3vw;
+  z-index: auto;
+  right: 2vw;
+  position: absolute;
+}
+
+/* line 396, ../sass/_commons.scss */
+.container-salon-strate-2 {
+  color: #FEF37F;
+  margin-top: -10vw;
+  text-transform: uppercase;
+}
+/* line 400, ../sass/_commons.scss */
+.container-salon-strate-2 .title {
+  font-size: 55.4vw;
+  line-height: 56vw;
+}
+/* line 404, ../sass/_commons.scss */
+.container-salon-strate-2 .title .stroke {
+  -webkit-text-stroke: 2px #FEF37F;
+  text-stroke: 1vw #FEF37F;
+  color: transparent;
+}
+/* line 409, ../sass/_commons.scss */
+.container-salon-strate-2 .title .sub-title {
+  font-size: 3vw;
+  text-align: left;
+  line-height: 5vw;
+  font-family: 'obviously-wide', sans-serif;
+  font-weight: 100;
+  margin-left: .5vw;
+  margin-top: 1.8vw;
+}
+/* line 420, ../sass/_commons.scss */
+.container-salon-strate-2 .title, .container-salon-strate-2 .separator {
+  display: inline-block;
+}
+/* line 424, ../sass/_commons.scss */
+.container-salon-strate-2 .separator {
+  line-height: 56vw;
+  vertical-align: text-bottom;
+  font-family: 'obviously-wide', sans-serif;
+  font-weight: 100;
+  margin: 0 1vw;
+  font-size: 2vw;
+}
+
+/* line 436, ../sass/_commons.scss */
+.container-salon-strate-3 {
+  margin: 5vw 0;
+}
+/* line 438, ../sass/_commons.scss */
+.container-salon-strate-3 .text-paragraphe {
+  margin-top: 10vw;
+  margin-bottom: 8vw;
+}
+/* line 443, ../sass/_commons.scss */
+.container-salon-strate-3 .img-2 {
+  width: 90%;
+  margin-left: auto;
+}
+
+/* line 449, ../sass/_commons.scss */
+.container-salon-strate-4 {
+  padding: 5vw 0;
+}
+/* line 451, ../sass/_commons.scss */
+.container-salon-strate-4 .sup-title {
+  font-family: 'obviously-wide', sans-serif;
+  font-weight: 100;
+  color: #FFF;
+  text-transform: uppercase;
+  margin-bottom: 1.8vw;
+  font-size: 1.3vw;
+}
+/* line 460, ../sass/_commons.scss */
+.container-salon-strate-4 .address {
+  font-family: 'obviously-wide', sans-serif;
+  color: #FEF37F;
+  font-size: 9vw;
+  text-transform: uppercase;
+  line-height: 9vw;
+  margin-bottom: 8vw;
+}
+/* line 470, ../sass/_commons.scss */
+.container-salon-strate-4 .phone {
+  color: #FFF;
+  font-family: 'obviously-wide', sans-serif;
+  font-weight: 100;
+  font-size: 1.3vw;
+  text-align: center;
+}
+/* line 477, ../sass/_commons.scss */
+.container-salon-strate-4 .horaire {
+  font-family: 'obviously-wide', sans-serif;
+  color: #FFF;
+  font-weight: 100;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* line 488, ../sass/_commons.scss */
+.container-black-formation {
+  background: #000;
+  padding: 13vw 0 2vw;
+}
+/* line 493, ../sass/_commons.scss */
+.container-black-formation .marquee {
+  color: #FEF37F;
+}
+/* line 496, ../sass/_commons.scss */
+.container-black-formation .marquee img {
+  display: inline-block;
+  width: 8vw;
+  margin: 0 1vw;
+}
+/* line 501, ../sass/_commons.scss */
+.container-black-formation .marquee span {
+  padding: 0;
+}
+/* line 504, ../sass/_commons.scss */
+.container-black-formation .marquee strong {
+  -webkit-text-stroke: 2px #FEF37F;
+  text-stroke: 2px #FEF37F;
+  color: transparent;
+}
+
+/* line 513, ../sass/_commons.scss */
+.list-case {
+  margin: 2vw;
+}
+/* line 516, ../sass/_commons.scss */
+.list-case .image-follow {
+  display: block;
+  border-bottom: 1px solid #FEF37F;
+  font-family: 'obviously-wide', sans-serif;
+  font-weight: 100;
+  padding: 2vw 0;
+  text-transform: uppercase;
+}
+/* line 523, ../sass/_commons.scss */
+.list-case .image-follow .title {
+  font-size: 2vw;
+  color: #FEF37F;
+  line-height: 2vw;
+}
+/* line 529, ../sass/_commons.scss */
+.list-case .image-follow .label {
+  color: #fff;
+}
+/* line 533, ../sass/_commons.scss */
+.list-case .image-follow:first-child {
+  border-top: 1px solid #FEF37F;
+}
+/* line 537, ../sass/_commons.scss */
+.list-case .image-follow:hover {
+  outline: none;
+  text-decoration: none;
+}
+
+/* line 545, ../sass/_commons.scss */
+.image-follow {
+  position: relative;
+  display: block;
+}
+/* line 548, ../sass/_commons.scss */
+.image-follow .follow-image {
+  visibility: hidden;
+  opacity: 0;
+  width: 10%;
+  position: absolute;
+  transition: visibility .2s, opacity .2s linear;
+}
+/* line 555, ../sass/_commons.scss */
+.image-follow .follow-image img {
+  position: absolute;
+}
+/* line 560, ../sass/_commons.scss */
+.image-follow .follow-image.multiples img {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility .2s, opacity .2s linear;
+  transition-delay: .2s;
+}
+/* line 566, ../sass/_commons.scss */
+.image-follow .follow-image.multiples img.is-visible {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0s;
+  z-index: 4;
+}
+/* line 579, ../sass/_commons.scss */
+.image-follow:hover .follow-image {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* line 587, ../sass/_commons.scss */
+.popin-formation {
+  position: fixed;
+  width: 100%;
+  z-index: 300;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+/* line 597, ../sass/_commons.scss */
+.popin-formation .container-popin {
+  background: #FFF;
+  position: fixed;
+  width: 50%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  padding: 3vw;
+}
+/* line 606, ../sass/_commons.scss */
+.popin-formation .container-popin .title-popin {
+  font-size: 3vw;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-family: 'obviously-wide', sans-serif;
+}
+/* line 613, ../sass/_commons.scss */
+.popin-formation .container-popin .link-round {
+  display: inline-block;
+  border-color: #000;
+  color: #000;
+  margin-top: 1vw;
+}
+/* line 620, ../sass/_commons.scss */
+.popin-formation .container-popin .label {
+  color: #C3C3C3;
+  font-size: 12px;
+}
+/* line 625, ../sass/_commons.scss */
+.popin-formation .container-popin .fake-input, .popin-formation .container-popin input {
+  border: none;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-transform: uppercase;
+  width: 100%;
+  padding-left: 0;
+}
+/* line 637, ../sass/_commons.scss */
+.popin-formation .container-popin form {
+  font-family: 'obviously-wide', sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-top: 6vw;
+}
+/* line 644, ../sass/_commons.scss */
+.popin-formation .container-popin button {
+  background: transparent;
+  border: 0;
+  text-transform: uppercase;
+  font-family: 'obviously-compressed', sans-serif;
+  line-height: 10vw;
+  font-size: 18vw;
+  font-weight: 600;
+}
+
+/* line 657, ../sass/_commons.scss */
+.container-about-strate-1 {
+  font-size: 4vw;
+  line-height: 4.5vw;
+  font-family: 'obviously-wide', sans-serif;
+  font-weight: 900;
+  color: #FEF37F;
+  text-transform: uppercase;
+}
+
+/* line 667, ../sass/_commons.scss */
+.container-about-strate-2 {
+  margin-top: 10vw;
+}
+/* line 670, ../sass/_commons.scss */
+.container-about-strate-2 .text-paragraphe {
+  margin: 10vw 0;
+  max-width: 80%;
+  display: block;
+  margin-left: auto;
+}
+
+/* line 679, ../sass/_commons.scss */
+.container-about-strate-3 {
+  margin: 0 0 10vw;
+  text-align: center;
+}
+/* line 682, ../sass/_commons.scss */
+.container-about-strate-3 .title-strate {
+  -webkit-text-stroke: 2px #FEF37F;
+  text-stroke: 2px #FEF37F;
+  color: transparent;
+  font-size: 60vw;
+  margin-top: -9vw;
+  line-height: 60vw;
+}
+
+/* line 693, ../sass/_commons.scss */
+.item-magazine {
+  position: relative;
+}
+/* line 696, ../sass/_commons.scss */
+.item-magazine .title-magazine {
+  font-family: 'obviously-wide', sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #FEF37F;
+  position: absolute;
+  left: 0;
+  top: 30px;
+  font-size: 1.4vw;
+}
+/* line 706, ../sass/_commons.scss */
+.item-magazine .content-magazine {
+  position: absolute;
+  max-width: 50%;
+  right: 0;
+  bottom: 30px;
+  text-align: right;
+}
+/* line 714, ../sass/_commons.scss */
+.item-magazine .img-magazine {
+  max-width: 70%;
+  margin-left: 20%;
+}
+/* line 718, ../sass/_commons.scss */
+.item-magazine.item1 {
+  margin-bottom: 15vw;
+}
+/* line 721, ../sass/_commons.scss */
+.item-magazine.item2 {
+  margin-top: 15vw;
+}
+/* line 725, ../sass/_commons.scss */
+.item-magazine.item3 {
+  margin-top: -5vw;
+}
+
+/* line 2, ../sass/_components.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 7, ../sass/_components.scss */
+body {
+  overflow-x: hidden;
 }
 
 /* line 1, ../sass/_header.scss */

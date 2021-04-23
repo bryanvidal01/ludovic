@@ -47,12 +47,12 @@
             <div class="col-sm-4">
                 <ul>
                     <li>
-                        <a href="">
+                        <a href="http://localhost:8888/ludovic/le-salon/">
                             Le salon
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="http://localhost:8888/ludovic/formations/">
                             Formations
                         </a>
                     </li>
@@ -65,7 +65,7 @@
             </div>
             <div class="col-sm-4 text-center">
                 <h1 class="title-site">
-                    <a href="">
+                    <a href="<?= get_site_url(); ?>">
                         Ludovic Geheniaux
                     </a>
                 </h1>
