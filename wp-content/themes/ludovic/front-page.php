@@ -10,7 +10,7 @@ get_header();
 <div id="swup" class="transition-fade container-home">
 
     <div class="bloc-intro-home">
-        <img src="http://localhost:8888/ludovic/wp-content/themes/ludovic/assets/images/362715101029205.5f15e58a70d17.jpg" class="bloc-intro-home__image" alt="">
+        <img src="http://localhost:8888/ludovic/wp-content/themes/ludovic/assets/images/362715101029205.5f15e58a70d17.jpg" class="bloc-intro-home__image parallax-item" data-gravity="35" data-parent="bloc-intro-home" alt="">
 
         <div class="bloc-intro-home__title-site">
             ludovic geheniaux

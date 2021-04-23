@@ -9,7 +9,7 @@ get_header();
 
         <div class="hero-page-content hero-about">
             <div class="container-image-hero">
-                <img src="http://localhost:8888/ludovic/wp-content/themes/ludovic/assets/images/362715101029205.5f15e58a70d17.jpg" alt="">
+                <img src="http://localhost:8888/ludovic/wp-content/themes/ludovic/assets/images/362715101029205.5f15e58a70d17.jpg" class="parallax-item" data-gravity="35" data-parent="container-image-hero" alt="">
             </div>
 
             <div class="container-titles">
@@ -37,11 +37,11 @@ get_header();
                                 Chaque cliente est unique. Dans mon salon Parisien, on se fiche des origines, des styles vestimentaires, des comptes en banque des orientations sexuelles et tout le reste. Chaque cliente, et chaque client qui pousse la porte est toujours écouté, chouchouté, choyé.
                             </p>
                         </div>
-                        <img src="http://fakeimg.pl/600x1000/" alt="">
+                        <img src="http://fakeimg.pl/600x1000/" class="parallax-item" data-gravity="-8" data-parent="container-about-strate-2"  alt="">
                     </div>
 
                     <div class="col-sm-5 offset-1">
-                        <img src="http://fakeimg.pl/600x1000/" alt="">
+                        <img src="http://fakeimg.pl/600x1000/" class="parallax-item" data-gravity="-40" data-parent="container-about-strate-2" alt="">
                     </div>
                 </div>
             </div>

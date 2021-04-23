@@ -104,11 +104,11 @@ function init(){
 
     $(".image-follow").mousemove(function(event){
         var el = $(this);
-        var relX = event.pageX - $(this).offset().left + 30;
+        //var relX = event.pageX - $(this).offset().left + 30;
         var relY = event.pageY - $(this).offset().top;
 
         el.find('.follow-image').fadeIn(100);
-        el.find('.follow-image').css({left: relX, top: relY})
+        el.find('.follow-image').css({right: '5%', top: relY})
     });
 
 
@@ -129,6 +129,30 @@ function init(){
         $('#swup').addClass('slide-down');
 
     }, 0);
+
+
+
+
+    $('.parallax-item').each(function( index ) {
+        var el = jQuery(this);
+        console.log(el);
+        var gravity = el.data('gravity');
+        var parent = el.data('parent');
+
+        if(parent){
+            parent = '.' + parent;
+        }
+
+        gsap.to(el, {
+            yPercent: gravity,
+            ease: "none",
+            scrollTrigger: {
+                trigger: el.parents(parent),
+                scrub: true
+            },
+        });
+
+    });
 
 
 }

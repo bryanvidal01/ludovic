@@ -9,7 +9,7 @@ get_header();
 
         <div class="hero-page-content">
             <div class="container-image-hero">
-                <img src="<?= get_template_directory_uri(); ?>/assets/images/32f665114756843.6041124fbc6cf.jpg" alt="">
+                <img src="<?= get_template_directory_uri(); ?>/assets/images/32f665114756843.6041124fbc6cf.jpg"  class="parallax-item" data-gravity="35" data-parent="" alt="">
             </div>
 
             <div class="container-titles">

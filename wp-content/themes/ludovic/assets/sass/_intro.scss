@@ -41,8 +41,8 @@
 }
 
 #swup{
-  transform: translate3d(0, -40vh, 0);
-  transition: 1.7s cubic-bezier(.76,-0.01,.11,.99);
+  /*transform: translate3d(0, -40vh, 0);
+  transition: 1.7s cubic-bezier(.76,-0.01,.11,.99);*/
   &.slide-down{
     transform: translate3d(0, 0, 0);
   }
