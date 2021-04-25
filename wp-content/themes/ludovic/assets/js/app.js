@@ -14,6 +14,9 @@ $(document).ready(function(){
 
 
 function init(){
+
+    $(this).scrollTop(0);
+
     const swiper = new Swiper('.swiper-container', {
         // Optional parameters
         loop: true,
@@ -23,7 +26,7 @@ function init(){
         spaceBetween: 30,
         centerInsufficientSlides: true,
         centeredSlides: true,
-        speed: 750,
+        speed: 400,
 
         autoplay: {
             delay: 2000,
@@ -104,11 +107,11 @@ function init(){
 
     $(".image-follow").mousemove(function(event){
         var el = $(this);
-        //var relX = event.pageX - $(this).offset().left + 30;
+        var relX = event.pageX - $(this).offset().left + 30;
         var relY = event.pageY - $(this).offset().top;
 
         el.find('.follow-image').fadeIn(100);
-        el.find('.follow-image').css({right: '5%', top: relY})
+        el.find('.follow-image').css({left: relX, top: relY})
     });
 
 
@@ -124,11 +127,74 @@ function init(){
         event.preventDefault();
     });
 
-    setTimeout(function(){
+/*    setTimeout(function(){
         $('.loader').addClass('slide-down');
         $('#swup').addClass('slide-down');
 
-    }, 0);
+    }, 0);*/
+
+
+    var $oscar = $('.pointer');
+    var w = window.innerWidth;
+
+    function moveOscar(e) {
+
+        w = window.innerWidth;
+
+        if(e.clientX > w / 2){
+            gsap.to($oscar, {
+                duration: 0.5,
+                delay:0,
+                x: e.clientX - 0,
+                y: e.clientY - 0,
+                ease: "back.out(3)"
+            });
+
+        } else {
+            gsap.to($oscar, {
+                duration: 0.5,
+                delay:0,
+                x: e.clientX - 0,
+                y: e.clientY - 0,
+                ease: "back.out(3)" //"power2.inOut"
+            });
+        }
+
+    }
+    $(window).on('mousemove', moveOscar);
+
+
+
+    // animation scroll
+
+    jQuery(window).scroll(function(){
+        var currentScroll = jQuery(window).scrollTop();
+        var animateDetect = currentScroll + (jQuery(window).height() - 140);
+        jQuery('.animate-scroll').each(function(){
+            var el = jQuery(this);
+            var anim = el.data('animation');
+            var elContent = el.html();
+            var newContent = '<div class="inner-anim">'+ elContent +'</div>';
+            var elTop = el.offset().top;
+
+
+            el.addClass(anim);
+
+            if (!el.find('.inner-anim').length) {
+                el.html(newContent);
+            }
+
+            if(animateDetect >= elTop){
+                el.addClass('is-visible');
+            }else{
+                el.removeClass('is-visible');
+            }
+
+
+        });
+    });
+
+    // End animation scroll
 
 
 
@@ -154,13 +220,25 @@ function init(){
 
     });
 
+    $('.inner-loader').addClass('slide-down');
+    setTimeout(function(){
+        $('.loader').addClass('slide-down');
+
+        setTimeout(function(){
+            $('#swup').addClass('slide-down');
+            $('.bloc-intro-home__title-site .container-text-hidden').addClass('visible');
+            setTimeout(function(){
+                $('.hero-navigation').addClass('visible');
+            }, 500);
+        }, 600);
+    }, 500);
+
 
 }
 
 window.onload = function(){
 
     var colors = ['#2D2E82', '#583f9a', '#d96333'];
-    const randomColors = Math.floor(Math.random() * colors.length);
 
     var animation = new SwupOverlayTheme({
         color: ['#FEF37F'],
@@ -172,18 +250,21 @@ window.onload = function(){
     });
 
 
-
+    init();
 
     $('.inner-loader').addClass('slide-down');
     setTimeout(function(){
         $('.loader').addClass('slide-down');
-        $('#swup').addClass('slide-down');
+
         setTimeout(function(){
-            $('.hero-navigation').addClass('visible');
-        }, 1000);
+            $('#swup').addClass('slide-down');
+            $('.bloc-intro-home__title-site .container-text-hidden').addClass('visible');
+            setTimeout(function(){
+                $('.hero-navigation').addClass('visible');
+            }, 500);
+        }, 600);
     }, 500);
 
-    init();
 
     swup.on('pageView', init);
 

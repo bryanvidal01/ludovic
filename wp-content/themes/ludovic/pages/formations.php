@@ -21,7 +21,7 @@ get_header();
         </div>
 
         <div class="container-black-formation">
-            <div class="marquee">
+            <div class="marquee animate-scroll">
                 <div class="marquee__inner" aria-hidden="true">
                     <span>Mai<strong>mai</strong>Mai<strong>mai</strong><img src="http://fakeimg.pl/150x150/" alt=""></span>
                     <span>Mai<strong>mai</strong>Mai<strong>mai</strong><img src="http://fakeimg.pl/150x150/" alt=""></span>
@@ -124,7 +124,7 @@ get_header();
                 </section>
             </div>
 
-            <div class="marquee">
+            <div class="marquee animate-scroll">
                 <div class="marquee__inner" aria-hidden="true">
                     <span>Décembre<strong>Décembre</strong>Décembre<strong>Décembre</strong><img src="http://fakeimg.pl/150x150/" alt=""></span>
                     <span>Décembre<strong>Décembre</strong>Décembre<strong>Décembre</strong><img src="http://fakeimg.pl/150x150/" alt=""></span>
@@ -227,7 +227,7 @@ get_header();
                 </section>
             </div>
 
-            <div class="marquee">
+            <div class="marquee animate-scroll">
                 <div class="marquee__inner" aria-hidden="true">
                     <span>Aout<strong>Aout</strong>Aout<strong>Aout</strong><img src="http://fakeimg.pl/150x150/" alt=""></span>
                     <span>Aout<strong>Aout</strong>Aout<strong>Aout</strong><img src="http://fakeimg.pl/150x150/" alt=""></span>
@@ -333,7 +333,7 @@ get_header();
 
         <div class="container-black formation">
             <div class="col-sm-12">
-                <div class="text-paragraphe">
+                <div class="text-paragraphe animate-scroll">
                     Conditions de vente <br/>
 
                     Le règlement des frais de la Formation est à effectuer dans les conditions suivantes : 50 % lors de l’inscription, 50 %, 30 jours avant le début de la formation , par chèque ou virement à l’ordre de SBLG Paris.<br/><br/>

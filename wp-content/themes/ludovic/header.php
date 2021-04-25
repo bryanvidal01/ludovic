@@ -32,6 +32,9 @@
 
 <body <?php body_class(); ?>>
 
+<div class="pointer">
+</div>
+
 <div class="loader">
     <div class="inner-loader">
         <div class="inner-loader__title-site">
@@ -52,17 +55,17 @@
             <div class="col-sm-4">
                 <ul>
                     <li>
-                        <a href="http://localhost:8888/ludovic/le-salon/">
+                        <a href="<?= get_site_url(); ?>/le-salon/">
                             Le salon
                         </a>
                     </li>
                     <li>
-                        <a href="http://localhost:8888/ludovic/formations/">
+                        <a href="<?= get_site_url(); ?>/formations/">
                             Formations
                         </a>
                     </li>
                     <li>
-                        <a href="http://localhost:8888/ludovic/a-propos/">
+                        <a href="<?= get_site_url(); ?>/a-propos/">
                             à propos
                         </a>
                     </li>
@@ -83,7 +86,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="http://localhost:8888/ludovic/contact/">
+                        <a href="<?= get_site_url(); ?>/contact/">
                             Contact
                         </a>
                     </li>

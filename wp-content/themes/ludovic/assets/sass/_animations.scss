@@ -11,3 +11,56 @@
   position: absolute;
 }
 
+
+.section-biography .container-biography .background-biography img{
+  height: 130%;
+  top: -30%;
+}
+
+
+.item-magazine .title-magazine{
+  top: 20%;
+}
+
+.bloc-intro-home__title-site{
+  overflow: hidden;
+  line-height: 28.5vw;
+  .container-text-hidden{
+    display: block;
+    transition: 1.5s;
+    height: 0%;
+    overflow: hidden;
+
+    &.visible{
+      transform: translate3d(0, 0%, 0);
+      height: 100%;
+    }
+  }
+}
+
+
+
+.pointer{
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  pointer-events: none;
+  mix-blend-mode: difference;
+  background: $color-yellow;
+  z-index: 9000;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  transition: .3s opacity;
+}
+
+
+.animate-scroll{
+  opacity: 0;
+  transition: .6s;
+  transform: translate3d(0, 30px, 0);
+
+  &.is-visible{
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}

@@ -9,7 +9,7 @@ get_header();
 
         <div class="hero-page-content hero-contact">
             <div class="container-image-hero">
-                <img src="http://localhost:8888/ludovic/wp-content/themes/ludovic/assets/images/362715101029205.5f15e58a70d17.jpg" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/362715101029205.5f15e58a70d17.jpg" alt="">
             </div>
 
             <div class="container-info-contact-hero">

@@ -10,56 +10,59 @@ get_header();
 <div id="swup" class="transition-fade container-home">
 
     <div class="bloc-intro-home">
-        <img src="http://localhost:8888/ludovic/wp-content/themes/ludovic/assets/images/362715101029205.5f15e58a70d17.jpg" class="bloc-intro-home__image parallax-item" data-gravity="35" data-parent="bloc-intro-home" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/362715101029205.5f15e58a70d17.jpg" class="bloc-intro-home__image parallax-item" data-gravity="35" data-parent="bloc-intro-home" alt="">
 
         <div class="bloc-intro-home__title-site">
-            ludovic geheniaux
+
+            <span class="container-text-hidden">
+                ludovic geheniaux
+            </span>
         </div>
 
         <div class="bloc-intro-home__cat-website">
-            <span>
+            <span class="animate-scroll">
                 Colorist
             </span>
-            <span>
+            <span class="animate-scroll">
                 Expert
             </span>
-            <div class="content text-paragraphe">
+            <div class="content text-paragraphe animate-scroll">
                 Véritable Passionné de la couleur, rien ne me fait peur, « Tout est possible »
             </div>
         </div>
 
         <div class="bloc-intro-home__info-salon">
-            <div class="sup-title">
+            <div class="sup-title animate-scroll">
                 Bienvenue au
             </div>
-            <div class="title">
+            <div class="title animate-scroll">
                 Salon
             </div>
-            <div class="description text-paragraphe">
+            <div class="description text-paragraphe animate-scroll">
                 <p>
                     Dans mon salon Parisien, on se fiche des origines, des styles vestimentaires, des comptes en banque des orientations sexuelles et tout le reste. Chaque cliente, et chaque client qui pousse la porte est toujours écouté, chouchouté, choyé.
                 </p>
             </div>
 
-            <a href="" class="link-round">
+            <a href="" class="link-round animate-scroll">
                 Découvrir
             </a>
         </div>
 
         <div class="bloc-intro-home__formations">
-            <div class="sup-title">
+            <div class="sup-title animate-scroll">
                 2021
             </div>
-            <div class="title">
+            <div class="title animate-scroll">
                 Forma<br/>tions
             </div>
-            <div class="description text-paragraphe">
+            <div class="description text-paragraphe animate-scroll">
                 <p>
                     Dans mon salon Parisien, on se fiche des origines, des styles vestimentaires, des comptes en banque des orientations sexuelles et tout le reste. Chaque cliente, et chaque client qui pousse la porte est toujours écouté, chouchouté, choyé.
                 </p>
             </div>
 
-            <a href="" class="link-round">
+            <a href="" class="link-round animate-scroll">
                 VOIR LES DATES
             </a>
         </div>
@@ -77,7 +80,7 @@ get_header();
             </div>
         </div>
         <div class="hero">
-            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/3b6b7e43731399.595aad641891c.jpg" width="100%" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/d70ca9115252161.604a92d8e3ff52.jpg" width="100%" alt="">
             <div class="circle active"></div>
         </div>
     </div>
@@ -141,16 +144,19 @@ get_header();
     </div>
 
     <div class="section-biography">
-        <div class="container-biography" style="background-image: url('http://localhost:8888/ludovic/wp-content/themes/ludovic/assets/images/362715101029205.5f15e58a70d17.jpg">
-            <div class="content-bio">
+        <div class="container-biography">
+            <div class="background-biography">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/362715101029205.5f15e58a70d17.jpg" class="parallax-item" data-gravity="35" data-parent="section-biography" alt="">
+            </div>
+            <div class="content-bio animate-scroll">
                 <p>
                     Dans mon salon Parisien, on se fiche des origines, des styles vestimentaires, des comptes en banque des orientations sexuelles et tout le reste. Chaque cliente, et chaque client qui pousse la porte est toujours écouté, chouchouté, choyé.
                 </p>
             </div>
 
-            <div class="title-filigrane">Appelle moi</div>
-            <div class="sub-title">Chaton</div>
-            <div class="container-button">
+            <div class="title-filigrane animate-scroll">Appelle moi</div>
+            <div class="sub-title animate-scroll">Chaton</div>
+            <div class="container-button animate-scroll">
                 <a href="" class="link-round">À propos</a>
             </div>
         </div>
